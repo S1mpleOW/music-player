@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="dashboard">
+        <div class="header">
+          <span>Now playing</span>
+          <h2 class="header_song">Sting 57th & 9th</h2>
+        </div>
+
+        <div class="progressbar">
+          <div class="half-circle"></div>
+          <div class="half-circle"></div>
+          <div class="half-circle-top"></div>
+          <div
+            class="progressbar-circle"
+            style="background-image: url(./img/img1.jpg)"
+          ></div>
+        </div>
+
+        <div class="control">
+          <div class="btn btn-repeat">
+            <i class="fa-solid fa-repeat"></i>
+          </div>
+          <div class="btn btn-pre">
+            <i class="fa-solid fa-backward-step"></i>
+          </div>
+          <div class="btn btn-toggle-play">
+            <i class="fa-solid fa-pause"></i>
+            <i class="fa-solid fa-play"></i>
+          </div>
+          <div class="btn btn-next">
+            <i class="fa-solid fa-forward-step"></i>
+          </div>
+          <div class="btn btn-random">
+            <i class="fa-solid fa-shuffle"></i>
+          </div>
+        </div>
+      </div>
+      <div id="playlist"></div>
+    </div>
+  </body>
+  <script src="./main.js"></script>
+</html>

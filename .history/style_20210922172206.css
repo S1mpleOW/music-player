@@ -1,0 +1,23 @@
+:root {
+  --primary-color: rgb(239, 65, 129);
+  --font-color: rgb(241, 56, 122);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+#dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.header {
+}
+.header_song {
+}

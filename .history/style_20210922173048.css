@@ -1,0 +1,44 @@
+:root {
+  --primary-color: rgb(239, 65, 129);
+  --font-color: rgb(241, 56, 122);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+#dashboard {
+  width: 100%;
+}
+.header {
+  margin: 5% auto 0;
+  text-align: center;
+  display: block;
+}
+.header span {
+  color: var(--font-color);
+  font-size: 14px;
+}
+.header h2 {
+  font-size: 20px;
+}
+.progressbar {
+  width: 25rem;
+  height: 25rem;
+  background-color: #ccc;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.half-circle {
+}
+.half-circle-top {
+}
+.progressbar-circle {
+}
